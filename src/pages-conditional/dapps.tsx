@@ -776,7 +776,7 @@ const DappsPage = ({
     {
       title: "SuperRare",
       description: t("page-dapps-dapp-description-superrare"),
-      link: "https://www.superrare.co",
+      link: "https://www.superrare.com",
       image: getImage(data.superrare),
       alt: t("page-dapps-superrare-logo-alt"),
     },
@@ -1072,7 +1072,7 @@ const DappsPage = ({
                   <Translation id="page-dapps-finance-description" />
                 </Subtitle>
               </Column>
-              <StyledInfoBanner isWarning={true}>
+              <StyledInfoBanner isWarning>
                 <H2>
                   <Translation id="page-dapps-warning-header" />
                 </H2>
@@ -1162,7 +1162,7 @@ const DappsPage = ({
                   <Translation id="page-dapps-gaming-description" />
                 </Subtitle>
               </Column>
-              <StyledInfoBanner isWarning={true}>
+              <StyledInfoBanner isWarning>
                 <H2>
                   <Translation id="page-dapps-warning-header" />
                 </H2>
@@ -1197,7 +1197,7 @@ const DappsPage = ({
                   <Translation id="page-dapps-technology-description" />
                 </Subtitle>
               </Column>
-              <StyledInfoBanner isWarning={true}>
+              <StyledInfoBanner isWarning>
                 <H2>
                   <Translation id="page-dapps-warning-header" />
                 </H2>
@@ -1246,7 +1246,7 @@ const DappsPage = ({
                   <Translation id="page-dapps-collectibles-description" />
                 </Subtitle>
               </Column>
-              <StyledInfoBanner isWarning={true}>
+              <StyledInfoBanner isWarning>
                 <H2>
                   <Translation id="page-dapps-warning-header" />
                 </H2>
